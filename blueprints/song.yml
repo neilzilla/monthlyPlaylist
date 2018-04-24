@@ -1,0 +1,20 @@
+title: Song
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  artist:
+    label: Artist
+    type:  text
+    
+  name:
+    label: Name
+    type:  text
+  
+  spotify_id:
+    label: ID
+    type:  text
+      

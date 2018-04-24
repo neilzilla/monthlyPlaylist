@@ -1,0 +1,42 @@
+title: Article
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  title
+    
+  coverimage:
+    label: Cover Image
+    type: image
+    width: 1
+    
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: DD/MM/YYYY
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+  
+  time:
+    icon: clock
+    label: Time
+    type: time
+    format: 24
+    interval: 5
+    placeholder: Select a time…
+    default: now
+    required: true
+    width: 1/2
+      
+  desc:
+    label: Description
+    type: textarea
+
+  text:
+    label: Content
+    type: textarea

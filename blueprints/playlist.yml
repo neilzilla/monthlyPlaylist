@@ -1,0 +1,62 @@
+title: Playlist
+
+files: false
+
+pages:
+  template: song
+
+options: 
+  status: false  
+
+fields:
+  lastfm_token:
+    label: Last.fm Token
+    type:  text
+    help: This is your Last.fm API Token
+    required: true
+    
+  lastfm_user:
+    label: Last.fm User
+    type:  text
+    help: This is your Last.fm User
+    required: true
+    
+  client_id:
+    label: Client ID
+    type:  text
+    help: This is your Spotify Client ID
+    required: true
+
+  client_secret:
+    label: Client Secret
+    type:  text
+    help: This is your Spotify Client secret
+    required: true
+
+  access_token:
+    label: Access Token
+    type:  text
+    help: This is your Spotify Access Token (Not Required)
+
+  refresh_token:
+    label: Refresh Token
+    type:  text
+    help: This is your Spotify Refresh Token
+    required: true
+    
+  playlist_id:
+    label: Playlist ID
+    type:  text
+    help: This is your Spotify Playlist ID
+    required: true
+    
+  user_id:
+    label: User ID
+    type:  text
+    help: This is your Spotify User ID
+    required: true
+
+  playlist_name:
+    label: Playlist Name
+    type:  text
+    help: This is your Spotify Playlist Name (Not Required)
